@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export class QuizQuestionButton extends Component {
+class QuizQuestionButton extends Component {
 
 
   render() {
     return (
-      <li><button>{this.props.button_text}</button></li>
+      <li className=""><button>{this.props.button_text}</button></li>
     )
   }
 }
 
-export default QuizQuestionButton
+export default QuizQuestionButton;
